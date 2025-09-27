@@ -1,0 +1,8 @@
+<odoo>
+    <record id="group_edicion_factura" model="res.groups">
+        <field name="name">Edicion Factura</field>
+<!--        <field name="category_id" ref="base.module_category_accounting"/>
+-->
+        <field name="category_id" ref="base.module_category_user_type"/>
+    </record>
+</odoo>
